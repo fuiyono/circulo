@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddAdressToBranchOffices extends Migration
+class AddCoordinatesToBranchOfficesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -15,7 +15,6 @@ class AddAdressToBranchOffices extends Migration
     {
         Schema::table('branch_offices', function (Blueprint $table) {
             //
-            $table->string('street');
             $table->string('colony');
             $table->string('city');
             $table->string('state');

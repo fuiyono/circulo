@@ -8,7 +8,7 @@
 @section('main-content')
 
 
-											<div id="mapid" style="width: 900px; height: 600px;"></div>
+		<div id="mapid" style="width: 800px; height: 600px;"></div>
 
 
 @endsection

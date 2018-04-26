@@ -33,9 +33,9 @@
 												<label for="">Semblanza</label>
 												<input type="text" class="form-control" name="biography" id="" placeholder="">
 												<label for="">E-mail</label>
-												<input type="text" class="form-control" name="email" id="" placeholder="">
+												<input type="email" class="form-control" name="email" id="" placeholder="contacto@mail.com">
 												<label for="">Telefono</label>
-												<input type="text" class="form-control" name="telephone" id="" placeholder="">
+												<input type="tel" class="form-control" name="telephone" id="" placeholder="">
 												<label for="">Sitio Web</label>
 												<input type="text" class="form-control" name="website" id="" placeholder="">
 
