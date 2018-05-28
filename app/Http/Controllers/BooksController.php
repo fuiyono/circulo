@@ -43,7 +43,7 @@ class BooksController extends Controller
         ]
       ]);
 
-        echo "Gurdado con éxito";
+        echo "Guardado con éxito";
     }
 
 }
